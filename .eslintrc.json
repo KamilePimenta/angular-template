@@ -96,12 +96,7 @@
     "vars-on-top": "error",
     "yoda": "error",
     // Visual Coding
-    "array-bracket-newline": [
-      "error",
-      {
-        "minItems": 5
-      }
-    ],
+    "array-bracket-newline": ["error", "consistent"],
     "array-bracket-spacing": "error",
     "array-element-newline": "error",
     "arrow-parens": "error",
@@ -111,7 +106,6 @@
       "error",
       "1tbs"
     ],
-    "comma-dangle": "error",
     "comma-spacing": "error",
     "comma-style": "error",
     "computed-property-spacing": "error",
@@ -119,10 +113,6 @@
     "function-call-argument-newline": [
       "error",
       "consistent"
-    ],
-    "indent": [
-      "error",
-      2
     ],
     "key-spacing": "error",
     "keyword-spacing": "error",
@@ -139,7 +129,7 @@
     "no-multiple-empty-lines": "error",
     "no-whitespace-before-property": "error",
     "nonblock-statement-body-position": "error",
-    "object-curly-spacing": "error",
+    "object-curly-spacing": ["error", "always"],
     "object-property-newline": "error",
     "operator-linebreak": [
       "error",
